@@ -7,7 +7,9 @@ const finalKm = document.getElementById('printKm');
 const finalAge = document.getElementById('printAge');
 const totalPrice = document.getElementById('finalPrice');
 
-button.addEventListener('click', function(){
+button.addEventListener('click', function(event){
+
+    event.preventDefault();
 
     const valueKm = inputKm.value;
     const valueAge = inputAge.value;
