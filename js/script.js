@@ -3,7 +3,9 @@
 const inputKm = document.getElementById('km');
 const inputAge = document.getElementById('age');
 const button = document.getElementById('send-btn');
-
+const finalKm = document.getElementById('printKm');
+const finalAge = document.getElementById('printAge');
+const finalPrice = document.getElementById('finalPrice');
 
 button.addEventListener('click', function(){
 
@@ -29,5 +31,7 @@ button.addEventListener('click', function(){
 
     inputKm.value = '';
     inputAge.value = '';
+
+    
 
 })
