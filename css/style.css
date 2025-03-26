@@ -1,0 +1,30 @@
+p{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 20px;
+    
+    
+}
+
+.bg-lightblue{
+    background-color: rgb(154, 234, 240);
+}
+
+.bg-recap{
+    background-color: rgb(140, 182, 245);
+}
+
+#printKm p, 
+#printAge p,
+#finalPrice p{
+    background-color: rgb(56, 159, 228);
+}
+
+#printName p{
+    background-color: rgb(87, 87, 245);
+    margin-left: 10px;
+}
+
+#finalPrice p{
+    margin-right: 10px;
+}
