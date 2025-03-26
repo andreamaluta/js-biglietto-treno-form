@@ -32,6 +32,8 @@ button.addEventListener('click', function(){
     inputKm.value = '';
     inputAge.value = '';
 
-    
+    const kmElement = document.createElement('p');
+    kmElement.append(valueKm);
+    finalKm.appendChild(kmElement);
 
 })
