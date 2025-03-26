@@ -5,7 +5,7 @@ const inputAge = document.getElementById('age');
 const button = document.getElementById('send-btn');
 const finalKm = document.getElementById('printKm');
 const finalAge = document.getElementById('printAge');
-const finalPrice = document.getElementById('finalPrice');
+const totalPrice = document.getElementById('finalPrice');
 
 button.addEventListener('click', function(){
 
@@ -35,5 +35,13 @@ button.addEventListener('click', function(){
     const kmElement = document.createElement('p');
     kmElement.append(valueKm);
     finalKm.appendChild(kmElement);
+
+    const ageElement = document.createElement('p');
+    ageElement.append(valueAge);
+    finalAge.appendChild(ageElement);
+
+    const priceElement = document.createElement('p');
+    priceElement.append(finalPrice);
+    totalPrice.appendChild(priceElement);
 
 })
